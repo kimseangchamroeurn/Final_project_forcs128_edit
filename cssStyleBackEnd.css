@@ -1,0 +1,175 @@
+/* General body and container */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+/* Navbar styles */
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #286090;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav > li.active > a {
+    background-color: #337ab7 !important;
+    color: white !important;
+    font-weight: 700;
+}
+
+/* Welcome Section */
+.welcome-section {
+    padding: 40px;
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Panels */
+.panel {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.panel-default {
+    border: none;
+}
+
+/* Panel Heading */
+.panel-heading {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #337ab7;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px 4px 0 0;
+}
+
+.panel-heading .badge {
+    background-color: #e7e7e7;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-left: 10px;
+}
+
+/* Buttons */
+.btn-sm {
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 5px 12px;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #286090;
+    border-color: #204d74;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.btn-danger:hover, .btn-danger:focus {
+    background-color: #c9302c;
+    border-color: #ac2925;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background-color: #449d44;
+    border-color: #398439;
+    color: white;
+    text-decoration: none;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: white;
+}
+
+table th, table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 8px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #337ab7;
+    color: white;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Utility */
+.text-center {
+    text-align: center;
+}
